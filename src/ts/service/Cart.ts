@@ -1,4 +1,4 @@
-import Buyable from '../domain/Buyable.ts';
+import Buyable from '../domain/Buyable';
 
 export default class Cart {
   private itemsInCart: Buyable[] = [];

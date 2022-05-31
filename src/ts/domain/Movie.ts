@@ -1,4 +1,4 @@
-import Buyable from './Buyable.ts';
+import Buyable from './Buyable';
 
 export default class Movie implements Buyable {
   constructor(

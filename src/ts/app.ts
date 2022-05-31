@@ -1,6 +1,6 @@
-import Cart from './service/Cart.ts';
-import Movie from './domain/Movie.ts';
-import Book from './domain/Book.ts';
+import Cart from './service/Cart';
+import Movie from './domain/Movie';
+import Book from './domain/Book';
 
 const cart = new Cart();
 const movie1 = new Movie(1, 'Мстители', 'The Avengers', 2012, 'USA', 'Avengers Assemble!', ['фантастика', 'боевик', 'фэнтези', 'приключения'], 137, 1100);

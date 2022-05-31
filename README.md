@@ -1,5 +1,7 @@
 # Домашнее задание к лекции «TypeScript»
 
+[![Build status](https://ci.appveyor.com/api/projects/status/tgnk2w3ry1sg0smm?svg=true)](https://ci.appveyor.com/project/elenakoch122/ajs-25-12-typescript)
+
 **Важно**: все задачи допустимо выполнять в одном GitHub репозитории.
 
 **Важно**: тесты должны обеспечивать 100% покрытие тестируемых функций по строкам.

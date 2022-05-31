@@ -1,0 +1,45 @@
+{
+  "name": "ajs-25_12-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "watch": "tsc -w",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elenakoch122/ajs-25_12-typescript.git"
+  },
+  "author": "elenakoch122",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elenakoch122/ajs-25_12-typescript/issues"
+  },
+  "homepage": "https://github.com/elenakoch122/ajs-25_12-typescript#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@types/jest": "^27.5.1",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "babel-jest": "^28.1.0",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.3",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "core-js": "^3.22.7"
+  }
+}

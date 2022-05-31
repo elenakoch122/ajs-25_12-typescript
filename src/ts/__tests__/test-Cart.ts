@@ -1,4 +1,5 @@
 import Cart from '../service/Cart';
+import Book from '../domain/Book';
 
 test('new card should be empty', () => {
   const cart = new Cart();

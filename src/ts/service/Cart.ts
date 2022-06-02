@@ -12,9 +12,9 @@ export default class Cart {
   }
 
   totalAmount(): number {
-    let sum: number = 0;
-    this.items.forEach(product => sum += product.price);
-    return sum;
+    return this.items.reduce((acc, item) => {
+      return acc + item.price;
+    }, 0);
   }
 
   totalAmountWithDiscount(percent: number): number {
